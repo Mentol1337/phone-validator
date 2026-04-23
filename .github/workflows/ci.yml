@@ -34,3 +34,6 @@ jobs:
 
       - name: Security
         run: bandit -r . -x ./venv
+
+        # - name: Security
+#   run: bandit -r . -x ./venv
